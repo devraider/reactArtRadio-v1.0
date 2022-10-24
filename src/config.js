@@ -1,1 +1,1 @@
-export const baseUrl = `https://artradio-backend.herokuapp.com/`;
+export const baseUrl = `https://artradio-backend.herokuapp.com`;
