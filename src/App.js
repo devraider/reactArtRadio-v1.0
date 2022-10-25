@@ -6,7 +6,7 @@ import Header from './components/Header';
 import SearchInput from './components/SearchInput';
 import Tabs from './components/Tabs/index';
 import {baseUrl} from './config';
-import axios from 'axios';
+
 
 function App() {
   const [list, setList] = useState(false);
@@ -75,8 +75,9 @@ function App() {
       <h2 className='mtb-20 app-quote'> Listen music from Radio without ads...</h2>
       <SearchInput />
       <Tabs onItemSelect={onItemSelect} tabData={appData} />
-      {list && <AudioList audioList={audioList} onTrackSelect={onTrackSelect} setTrackIndex={setTrackIndex} onBackButtonPress={onBackButtonPress} />}
+      {list && <AudioList audioList={audioList} onTrackSelected={onTrackSelect} setTrackIndex={setTrackIndex} onBackButtonPress={onBackButtonPress} />}
       <FixFooter trackIndex={trackIndex}
+      onTrackSelect={onTrackSelect}
        audioList={audioList}
         searchedSong={searchedSong}
         setSearchedSong={setSearchedSong}
