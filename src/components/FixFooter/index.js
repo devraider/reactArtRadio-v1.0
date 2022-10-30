@@ -85,7 +85,7 @@ const FixFooter = (
 
   useEffect(()=> {
     audioRef.current.pause();
-    audioRef.current = searchedSong && new Audio(yt_song_mp4);
+    audioRef.current = searchedSong && new Audio(local_track_url);
     audioRef.current.play();
     setIsPlaying(true);
     startTimer();
