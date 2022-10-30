@@ -28,6 +28,7 @@ const FixFooter = (
   const {
     yt_song_mp4 = "",
     yt_song_artists = "",
+    local_track_url = "",
     yt_song_thumbnail = "https://www.wjzd.com/wp-content/themes/Branding/loading.gif"
   } = searchedSong.letgth !== 0 ? searchedSong: {};
 
