@@ -6,7 +6,7 @@ This is the first version of **ArtRadio** frontend application (for latest versi
 It's an ad-free online radio player built with ReactJS. 
   
 > [!note]
-> This project using Python, Django framework as backend – code could be found   [djangoArtRadio - v1.0](https://github.com/devraider/djangoArtRadio-v1.0.0)
+> This project using Python, Django framework as backend – code could be found   [djangoArtRadio - v1.0](https://github.com/devraider/djangoArtRadio-v1.0)
 
 ## I.1. Presentation images
 
