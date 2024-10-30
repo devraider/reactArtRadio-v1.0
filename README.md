@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# reactArtRadio 1.0 - An React web app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is the first version of **ArtRadio** frontend application (for latest version you can check [ngArtRadio v2.0](https://github.com/devraider/ngArtRadio-v2.0)).
 
-In the project directory, you can run:
+It's an ad-free online radio player built with ReactJS. 
+  
+> [!note]
+> This project using Python, Django framework as backend – code could be found   [djangoArtRadio - v1.0.0](https://github.com/devraider/djangoArtRadio-v1.0.0)
 
-### `yarn start`
+## I.1. Presentation images
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Home page
+![alt text](src/assets/docs/image.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+## I.2. Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Stream Radio Stations**: Access multiple stations for uninterrupted listening.
+- **Track History**: See a list of recently played songs from each station's playlist.
+- **Song Replays**: Replay songs through YouTube using the embedded player, without any ads.
+- **Playback Controls**: Includes next, previous, play, pause, and volume control options.
+- **MP3 Playback**: Plays MP3 files directly from the backend.
+- **Responsive Design**: Works smoothly on both desktop and mobile.
 
-### `yarn build`
+## I.3. Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Core library for building the app’s interactive user interface.
+- **Axios**: Handles HTTP requests for data fetching from APIs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## I.4. Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### I.4.1. Prerequisites
 
-### `yarn eject`
+- **Node.js** (v14+)
+- **npm** (10.8+)
+- **ReactJS** (18+)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> [!warning]
+> You need to have [djangoArtRadio - v1.0.0](https://github.com/devraider/djangoArtRadio-v1.0.0) up and running before starting web application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### I.4.2. Installation and Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   git clone https://github.com/devraider/reactArtRadio-v1.0.0.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   cd reactArtRadio-v1.0.0
 
-### Code Splitting
+```
+2. **Install dependencies**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+    npm install
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### I.4.3. Run the application
+```bash
+   npm start
+```
